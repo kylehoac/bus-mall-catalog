@@ -60,7 +60,7 @@ itemCountElem.appendChild(pElem);
 // const itemQuantity = parseInt(document.getElementById('quantity').value);
 for (let i = 0; i < cart.items.length; i+=1){
   let currentCartItem = cart.items[i];
-  pElem.textContent = parseInt(currentCartItem.quantity + cartCount);
+  pElem.textContent = parseInt(currentCartItem.quantity+cartCount);
 }
 
 // TODO: As you add items into the cart, show them (item & quantity) in the cart preview div
